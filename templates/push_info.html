@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>推流指南</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+<div class="container py-4">
+    <h1>OBS 怎么推流？</h1>
+    <p>服务器 RTMP 地址：<code>{{ rtmp_server }}</code></p>
+    <p>【推流码】流名可自定义，也是标题，例如 <code>test1</code>、<code>user2</code></p>
+    <ul>
+        <li>服务类型：自定义 RTMP</li>
+        <li>服务器：<code>{{ rtmp_server }}</code></li>
+        <li>流名/密钥：自定义</li>
+        <li>分辨率/码率：根据带宽设置（建议1080p60hz 3500kbps）</li>
+    </ul>
+    <p>备注：观看人数现在是没有用的</p>
+    <a class="btn btn-primary" href="/">返回首页</a>
+</div>
+</body>
+</html>

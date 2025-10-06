@@ -1,0 +1,47 @@
+body {
+    background-color: #efedd5;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: #343a40;
+}
+
+.card {
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.btn-primary, .btn-success {
+    border-radius: 8px;
+}
+
+.text-success {
+    font-weight: bold;
+}
+
+.text-danger {
+    font-weight: bold;
+}
+
+video {
+    border-radius: 12px;
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.badge {
+    font-size: 0.9rem;
+}
